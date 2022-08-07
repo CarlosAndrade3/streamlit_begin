@@ -1,4 +1,5 @@
 import streamlit as st
+import matplotlib.pyplot as plt
 import cv2 as cv
 from PIL import Image
 import numpy as np
@@ -10,7 +11,7 @@ def LookupTable(x, y):
     return spline(range(256))
 
 def load_file():
-    uploaded_file = st.file_uploader('Carregue uma imagem')
+    uploaded_file = st.file_uploader('Carregue umaS imagem')
 
     if uploaded_file is not None:
 
