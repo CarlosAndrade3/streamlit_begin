@@ -11,7 +11,7 @@ def LookupTable(x, y):
     return spline(range(256))
 
 def load_file():
-    uploaded_file = st.file_uploader('Carregue umaS imagem')
+    uploaded_file = st.file_uploader('Carregue uma imagem')
 
     if uploaded_file is not None:
 
