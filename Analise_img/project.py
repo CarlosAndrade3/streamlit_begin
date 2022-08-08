@@ -1,5 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 import cv2 as cv
 from PIL import Image
 import numpy as np
